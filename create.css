@@ -1,0 +1,178 @@
+*{
+margin: 0;
+padding:0;
+font-family:Century Gothic;
+BOX-SIZING: border-box;
+}
+.main{
+width:100%;
+
+}
+.main .fa{
+margin-right:8px;}
+nav{
+width:100%;
+height:80px;
+background-color:#0003;
+line-height:80px;
+}
+nav ul{
+float:right;
+margin-right:30px;
+}
+nav ul li{
+
+list-style-type:none;
+display:inline-block;
+}
+nav ul li a{
+text-decoration:none;
+color:#fff;
+padding:5px 20px;
+border:1px solid transparent;
+transition:0.6s ease;
+} 
+nav ul li a:hover{
+background-color:skyblue;
+color: black;
+}
+nav ul li.active a{
+background-color:skyblue;
+color: black;
+}
+.sub-menu{
+text-transform:none;
+ display:none ;
+ position:absolute;
+width:150px;
+background-color:#0006;
+
+}
+.menu:hover .sub-menu{
+display:block;
+
+}
+.sub-menu-items{
+float:left;
+border-left:4px solid transparent;
+transition:0.6s ease;
+height:7vh;
+
+}
+
+body{
+margin: 0;
+padding:0;
+font-family:Century Gothic;
+background-image: url(../img/32.jpg);
+width:100%;
+background-repeat:no-repeat;
+}
+.login-box{
+width:800px;
+position:absoute;
+margin-top:10%;
+margin-left:40%;
+transform:translate(-25%,-30%);
+color:#84D9C3;
+
+}
+.login-box h1{
+float:left;
+font-size:90px;
+color:#2894EB;
+border-bottom:6px solid #5B82A1;
+margin-bottom:80px;
+padding:13px 0;
+
+
+} 
+.textbox {
+width:100%;
+overflow:hidden;
+font-size:20px;
+padding:8px 0;
+margin:8px;
+
+border-bottom:1px solid #5B82A1;
+}
+.textbox i{
+width:26px;
+float:left;
+text-align:center;
+}
+.textbox input{
+border:none;
+outline:none;
+background:none;
+color:#3F5443;
+font-size:18px;
+width:80%;
+float:left;
+margin:0 10px;
+}
+
+.btn{
+width:100%;
+background:#D0D2CB;
+border:2px solid #736868;
+color:black;
+padding:5px;
+font-size:18px;
+cursor:pointer;
+margin:12px 0;
+}
+.symbol .fa{
+margin-top:5px;
+margin-left:15px;
+transform:translate(-5%,-820%);
+float:left;
+font-size:50px;
+color:black;
+}
+.text{
+margin-top:5px;
+margin-left:30px;
+transform:translate(-25%,-1150%);
+float:left;
+font-size:30px;
+color:BLACK;
+}
+.symbol1 .fa{
+margin-top:5px;
+margin-left:-160px;
+transform:translate(-35%,-630%);
+float:left;
+font-size:50px;
+color:black;
+}
+.text1{
+margin-top:5px;
+margin-left:30px;
+transform:translate(-110%,-870%);
+float:left;
+font-size:30px;
+color:BLACK;
+}
+.symbol2 .fa{
+margin-top:5px;
+margin-left:15px;
+transform:translate(-780%,-450%);
+float:left;
+font-size:50px;
+color:black;
+}
+.text2{
+margin-top:5px;
+margin-left:30px;
+transform:translate(-215%,-610%);
+float:left;
+font-size:30px;
+color:BLACK;
+}
+
+
+
+
+
+
